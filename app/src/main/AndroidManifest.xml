@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Altcom"
+        tools:targetApi="31">
+        <activity
+            android:name=".i_school"
+            android:exported="false" />
+        <activity
+            android:name=".i_school_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_school_want"
+            android:exported="false" />
+        <activity
+            android:name=".i_juice_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_juice_want"
+            android:exported="false" />
+        <activity
+            android:name=".i_apple_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_apple_want"
+            android:exported="false" />
+        <activity
+            android:name=".i_rice_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_rice_want"
+            android:exported="false" />
+        <activity
+            android:name=".i_apple"
+            android:exported="false" />
+        <activity
+            android:name=".i_rice"
+            android:exported="false" />
+        <activity
+            android:name=".i_juice"
+            android:exported="false" />
+        <activity
+            android:name=".i_watermelon_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_watermelon"
+            android:exported="false" />
+        <activity
+            android:name=".i_watermelon_want"
+            android:exported="false" />
+        <activity
+            android:name=".activity_add"
+            android:exported="false" />
+        <activity
+            android:name=".WhereActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".i_meat_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_meat_want"
+            android:exported="false" />
+        <activity
+            android:name=".i_peach_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_peach_want"
+            android:exported="false" />
+        <activity
+            android:name=".i_kiwi_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_kiwi_want"
+            android:exported="false" />
+        <activity
+            android:name=".razdel"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".i_milk_wantnt"
+            android:exported="false" />
+        <activity
+            android:name=".i_milk_want"
+            android:exported="false" />
+        <activity
+            android:name=".i_milk"
+            android:exported="false" />
+        <activity
+            android:name=".i_peach"
+            android:exported="false" />
+        <activity
+            android:name=".i_meat"
+            android:exported="false" />
+        <activity
+            android:name=".i_kiwi"
+            android:exported="false" />
+        <activity
+            android:name=".FshWantntActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ZeroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
